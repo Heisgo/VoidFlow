@@ -5,7 +5,7 @@ A slick, plug‑and‑play finite‑state machine that lets you focus on fun beh
 
 ## What makes it rad?
 * **Code‑driven & lightweight** -- No fancy node graphs required. Just inherit `FlowState` and you're good to go.
-* **SOLID & Extensible** -- Open for new behaviors (derive your own `FlowState`), closed for core hacks.
+* **SOLID (OCP principle & SRP principle) & Extensible** -- Open for new behaviors (derive your own `FlowState`), closed for core hacks.
 * **Built‑in timers** -- `Wait( seconds, callback )` right in your states, plus `TransitionAfter<T>` in the machine.
 * **ScriptableObject kickoff** -- Drag a `ScriptableState` asset into your machine to pick your starting state.
 * **Smart caching** -- States are lazy‑instanced and cached, so you don't burn CPU or memory with repeat `new` calls.
