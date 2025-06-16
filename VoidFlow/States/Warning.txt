@@ -1,0 +1,1 @@
+Keep in mind that these states are only for demonstration purposes. You'll probably want to create your own states for your game.
